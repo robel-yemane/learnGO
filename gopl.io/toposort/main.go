@@ -30,6 +30,7 @@ var prereqs = map[string][]string{
 //!+main
 
 func main() {
+	// topoSort returns an array of string
 	for i, course := range topoSort(prereqs) {
 		fmt.Printf("%d:\t%s\n", i+1, course)
 	}
@@ -50,6 +51,7 @@ func topoSort(m map[string][]string) []string {
 		}
 	}
 	var keys []string
+	// range can iterate over just keys of a map
 	for key := range m {
 		keys = append(keys, key)
 	}
