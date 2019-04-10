@@ -1,0 +1,6 @@
+{
+	"ImportPath": "learnGO/go-in-practice/webservers/multiple_handlers",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": []
+}
